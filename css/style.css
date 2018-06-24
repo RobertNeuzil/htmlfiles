@@ -16,4 +16,20 @@ p {
     	height: 55%;
 }
 
+.backgrey {
+	background-color: grey;
+}
+
+.mypadding {
+
+
+    padding: 120px;
+}
+}
+
+#makered {
+	color: red;
+}
+
+
 
