@@ -25,11 +25,16 @@ p {
 
     padding: 120px;
 }
-}
+
 
 #makered {
 	color: red;
 }
 
+form {
+    width: 60%;
+    margin-left: 10px
 
+    
+}
 
