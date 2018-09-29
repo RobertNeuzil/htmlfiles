@@ -94,90 +94,32 @@ input, select {
 }
 
 /*My CSS */
+    .wholewebsitewrapper{
+        background-color:  #DCE0E6;
+    }
+	.imgwrapper img{
+	    width: 100%;
+   		height: auto;
+			}
 
+    .mainwrapper{
+        margin-right: 300px;
+        margin-left: 300px;
+        font-family: 'K2D', sans-serif;
+        background-color: #567EBB;
+        color: #1F1F20;
+    }
+    .mainwrapper img{
+        width: 100%;
+        height: auto;
+            }
+    .mainwrapper p{
+        
+        font-size: 22px;
 
-		h2{
-			color: #f7f7f7;
-			font-size: 50px;
-			margin: 20px;
-			background-color: #3b5998;
-			text-align: center;
+    }
 
-		}
-		h3{
-			text-align: left;
-			font-size: 35px;
-			margin: 40px 20px 20px 20px;
-			color: 	#8b9dc3;
-			
-
-		}
-		p{
-			text-align: left;
-			font-size: 20px;
-			margin: 20px;
-			color: #8b9dc3;
-
-		}
-		.breakingnews h3{
-			font-size: 40px;
-			color: 	#ff0000;
-			font-family: 'Roboto Mono', monospace;
-			text-indent: 50px;
-			font-weight: 500; 
-
-		}
-		.breakingnews p{
-			font-size: 25px;
-			margin-left: 50px;
-			color: #bf0000;
-			margin-left: 40px;
-			font-family: 'Roboto Mono', monospace;
-			font-weight: 400;
-		}
-
-		.about h1{
-			color: #f7f7f7;
-			font-size: 50px;
-			margin: 20px;
-			background-color: #3b5998;
-			text-align: center;
-
-		}
-
-		.about p{
-			font-size: 50px;
-			font-weight: 100;
-			text-align: left;
-		}
-
-
-		nav{
-			width: 100%;
-			height: 75px;
-			background-color: #343A40;
-			text-align: right;
-
-		}
-
-		ul{
-
-		}
-
-		ul li{
-			list-style: none;
-			margin: 0;
-			padding: 0;
-			display: inline-block;
-			line-height: 75px
-			margin: 10px;
-			padding: 10px
-		}
-
-		ul li a{
-			text-decoration: none;
-			font-size: 50px;
-			font-family: arial;
-			color: #C2C3C5;
-
-		}
+    .mainwrapper h2{
+        font-size: 30px;
+        
+    }
