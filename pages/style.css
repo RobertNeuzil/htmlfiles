@@ -135,15 +135,6 @@ input, select {
 			font-family: 'Roboto Mono', monospace;
 			font-weight: 400;
 		}
-		a:link {
-		    color: blue;
-		    font-size: 25px;
-		}
-
-		a:visited {
-		    color: blue;
-		    font-size: 25px;
-		}
 
 		.about h1{
 			color: #f7f7f7;
@@ -158,4 +149,17 @@ input, select {
 			font-size: 50px;
 			font-weight: 100;
 			text-align: left;
+		}
+
+		.about a{
+			font-weight: 500;
+			font-size: 30px;
+		}
+
+		 a{
+			text-align: left;
+			font-size: 20px;
+			margin: 20px;
+			color: blue;
+
 		}
