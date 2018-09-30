@@ -101,5 +101,30 @@ input, select {
     vertical-align:middle;
 }
 
-/* MY CSS */
 
+/* MY CSSS                                                      */
+
+
+.headerwrapper header nav{
+	background-color: grey;
+
+	height: 100px;
+	width: 100%;
+	
+	
+}
+
+.headerwrapper header nav h2{
+	font-size: 60px;
+
+	color: white;
+
+}
+
+.headerwrapper header nav h2 ul li a{
+	font-size: 55px;
+	text-decoration: none;
+	display: inline;
+	padding-left: 40px;
+
+}
