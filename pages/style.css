@@ -156,20 +156,32 @@ body{
 
 }
 
+.contentwrapper section{
+	display: inline-flex;
+	
+}
+
+
 .contentwrapper h2{
 	font-size: 40px;
 	margin-bottom: 30px;
 	color: #464655;
 
+
 }
 
 .contentwrapper h3{
 	font-size: 26px;
-	margin-bottom: 10px;
-	color: #464655;}
+	margin: 10px;
+	color: #464655;
+
+	
+}
+
 
 .contentwrapper p{
 	font-size: 20px;
 	margin-bottom: 20px;
 	color: #464655;
+
 }
