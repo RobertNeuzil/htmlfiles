@@ -191,3 +191,28 @@ body{
 	margin-right: 10px;
 
 }
+
+.footerwrapper{
+	height: 50px;
+	background-color: black;
+}
+
+.footerwrapper li{
+	display: inline-flex;
+	margin-right: 25px;
+
+}
+
+.footerwrapper ul{
+
+
+}
+
+.footerwrapper a{
+	text-decoration: none;
+	font-size: 30px;
+	color: white;
+	
+	
+
+}
