@@ -153,8 +153,9 @@ body{
 	margin-left: 200px;
 	display: grid;
 	grid-template-columns: 45% 55%;
-	grid-column-gap: 10px;
-	grid-row-gap: 10px;
+/*	grid-column-gap: 10px;
+	grid-row-gap: 10px; */
+	grid-gap: 10px;
 }
 
 .wrapper > div{
@@ -177,6 +178,37 @@ body{
 	font-size: 18px;
 	margin-top: 10px;
 }
+
+
+
+
+
+
+.aboutwrapper{
+	background-color: #eee;
+	margin-right: 300px;
+	margin-left: 200px;
+	display: grid;
+	/*grid-template-columns: 1fr 1fr 1fr; */
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 1em;
+
+
+
+}
+
+
+.aboutwrapper > div > p{
+	font-size: 22px;
+	margin: 8px;
+
+}
+
+.aboutwrapper > div:nth-child(odd){
+	background-color: #ddd;
+}
+
+
 
 
 .footerwrapper{
