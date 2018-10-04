@@ -112,7 +112,7 @@ input, select {
 }
 
 body{
-	background-color: #F4F1EB;
+	background-color: #C4C4C4;
 }
 
 
@@ -152,12 +152,14 @@ body{
 	margin-right: 300px;
 	margin-left: 200px;
 	display: grid;
-	grid-template-columns: 60% 40%;
+	grid-template-columns: 45% 55%;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
 }
 
 .wrapper > div{
 	background-color: #eee;
-	padding: 15px;
+	
 
 }
 
@@ -167,11 +169,13 @@ body{
 
 .wrapper > div > h2{
 	font-size: 26px;
-	padding-bottom: 5px;
+	margin-top: 10px;
+	
 }
 
 .wrapper > div > p{
 	font-size: 18px;
+	margin-top: 10px;
 }
 
 
