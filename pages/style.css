@@ -148,12 +148,31 @@ body{
 	height: 80px;
 } 
 
-#parent{
+.wrapper{
+	margin-right: 300px;
+	margin-left: 200px;
 	display: grid;
-	grid-template-columns: repeat(2, lfr);
-	grid-auto-rows: 1fr 1fr;
-}	
+	grid-template-columns: 60% 40%;
+}
 
+.wrapper > div{
+	background-color: #eee;
+	padding: 15px;
+
+}
+
+.wrapper > div:nth-child(odd){
+	background-color: #ddd;
+}
+
+.wrapper > div > h2{
+	font-size: 26px;
+	padding-bottom: 5px;
+}
+
+.wrapper > div > p{
+	font-size: 18px;
+}
 
 
 .footerwrapper{
