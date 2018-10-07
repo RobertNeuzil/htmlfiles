@@ -19,9 +19,7 @@ body{
 	padding: 30px;
 }
 
-#content div:nth-child(even){
-	background: #777;
-}
+
 
 .nested{
 	display: grid;
