@@ -14,8 +14,56 @@ body{
 
 .grid{
 	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: 1fr 2fr 2fr 2fr 2fr 1fr;
 	color: white;
 	text-align: center;
-	margin-left: 200px;
-	margin-right: 200px;
+	margin-left: 100px;
+	margin-right: 100px;
+	grid-gap: 10px;
+	text-align: center;
+}
+
+.header{
+	grid-column-start: 1;
+	grid-column-end: 4; 
+
+}
+
+.main{
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 5;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.leftstuff{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 5;
+	]
+}
+
+.leftstuff li{
+	padding: 10px;
+	font-size: 50px;
+	list-style: none;
+	font-weight: 900px;
+}
+
+.footer{
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 6;
+	grid-row-end: 7;
+}
+
+.idk{
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 5;
+	grid-row-end: 6;
 }
