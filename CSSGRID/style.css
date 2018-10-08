@@ -131,7 +131,7 @@ body{
 .grid{
 	display: grid;
 	grid-template-columns: 1fr 2fr 1fr;
-	grid-template-rows: 1fr 2fr 2fr 2fr 2fr 1fr;
+	grid-template-rows: 10% 10% 20% 50% 10%;
 	color: #46494C;
 	text-align: center;
 	margin-left: 60px;
@@ -145,7 +145,7 @@ body{
 	grid-column-end: 4;
 	padding: 30px; 
 	font-size: 35px;
-	max-height: 35px;
+	
 
 }
 
@@ -159,22 +159,28 @@ body{
 }
 
 .main p{
-	margin-top: 50px;
-	margin-left: 10px;
-	margin-right: 10px;
+	
+	
+	
+	display: grid;
+	padding: 1em;
+	border: #333 10px solid;
+	grid-gap: 20px;
 }
+
+
 
 .leftstuff{
 	grid-column-start: 1;
 	grid-column-end: 2;
 	grid-row-start: 2;
-	grid-row-end: 5;
+	grid-row-end: 4;
 	
 }
 
 .leftstuff li{
 	padding-top: 20px;	
-	font-size: 50px;
+	font-size: 35px;
 	list-style: none;
 	
 }
